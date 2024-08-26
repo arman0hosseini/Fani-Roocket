@@ -15,10 +15,56 @@ nav {
 
 .upper-nav {
   border-radius: 20px;
-  padding: 20px;
+  padding: 36px 44px;
   width: 1250px;
-  height: 120px;
   background-color: rgb(14 35 56);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 2rem; */
+}
+
+.home-logo {
+}
+
+.home-logo a {
+  display: block;
+  text-decoration: none;
+  color: gray;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.search-bar {
+  margin: 0 4rem;
+  position: relative;
+}
+.search-bar input {
+  box-sizing: content-box;
+  display: inline-block;
+  border-radius: 10px;
+  border: 0.5px solid rgb(109, 134, 165);
+  background-color: rgb(41 72 109);
+  width: 520px;
+  height: 15px;
+  padding: 16px 48px 16px 12px;
+}
+
+.search-bar button {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 0;
+  top: 0.5rem;
+  right: 0.25rem;
+  position: absolute;
+}
+
+.dark-mode button {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-left: 20px;
 }
 
 .button-nav {
@@ -26,4 +72,31 @@ nav {
   height: 65px;
   border-radius: 0 0 20px 20px;
   background-color: rgb(14 35 56);
+}
+
+.login a {
+  line-height: 23px;
+  text-decoration: none;
+  padding: 0.5rem;
+  display: inline-block;
+  width: 6rem;
+  height: 40px;
+  font-weight: bold;
+}
+
+.login a:first-child {
+  color: rgb(59 130 246);
+  background-color: rgb(19 44 75);
+  border-radius: 0 10px 10px 0;
+  position: relative;
+  right: 5px;
+  z-index: 5;
+}
+
+.login a:last-child {
+  position: relative;
+  z-index: 10;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(59 130 246);
 }
