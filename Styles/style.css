@@ -105,6 +105,16 @@ ul a {
   padding: 0.5rem;
 }
 
+.jadid {
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  font-weight: 500;
+  margin-right: 0.3rem;
+  display: inline-block;
+  padding: 2px 8px;
+}
+
 .button-nav ul {
   margin-left: auto;
   margin-right: auto;
