@@ -91,7 +91,7 @@ nav {
   background-color: rgb(59 130 246);
 }
 
-.button-nav {
+.buttom-nav {
   width: 1180px;
   border-radius: 0 0 20px 20px;
   background-color: rgb(14 35 56);
@@ -115,7 +115,7 @@ ul a {
   padding: 2px 8px;
 }
 
-.button-nav ul {
+.buttom-nav ul {
   margin-left: auto;
   margin-right: auto;
   width: 85%;
